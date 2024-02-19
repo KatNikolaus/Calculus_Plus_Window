@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+    xmlns:wpf="http://schemas.microsoft.com/netfx/2009/xaml/presentation" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculus_Plus_Window"
+        mc:Ignorable="d"
+        Title="Calculus Plus" Height="150" Width="200">
+    <Grid Margin="0,0,0,-1">
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Height="27" Width="130"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+
+    </Grid>
+
+</Window>
